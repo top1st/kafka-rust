@@ -30,6 +30,8 @@ env_logger = "0.4"
 time = "0.1"
 rand = "0.3"
 
+[patch.crates-io]
+openssl = { git = 'https://github.com/top1st/rust-openssl.git', branch = '0.9.x' }
 
 [features]
 default = ["snappy", "gzip", "security"]
